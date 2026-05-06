@@ -43,7 +43,7 @@ export class ImagesController {
         if (!existsSync(uploadPath)) {
           mkdirSync(uploadPath, { recursive: true });
         }
-
+        
         cb(null, uploadPath);
       },
       filename: (req, file, cb) => {

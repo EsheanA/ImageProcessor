@@ -51,7 +51,7 @@ function Home() {
       handleReset();
     }
   })
-
+  
   return (
     <main className="min-h-screen bg-background p-8">
       <section className="mx-auto max-w-4xl space-y-8">
